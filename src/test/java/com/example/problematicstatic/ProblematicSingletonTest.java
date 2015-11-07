@@ -5,6 +5,7 @@ import org.junit.Test;
 public class ProblematicSingletonTest {
     @Test
     public void getThisTestToPass() {
-       ProblematicSingleton.instance();
+        ProblematicSingleton.instance().startSession();
+        ProblematicSingleton.instance().stopSession();
     }
 }

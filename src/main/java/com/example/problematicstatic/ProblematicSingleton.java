@@ -14,4 +14,17 @@ public class ProblematicSingleton {
         // simulate by failing
         throw new RuntimeException();
     }
+
+    public void startSession() {
+        System.out.println("********************************************");
+        System.out.println("Starting session...");
+        System.out.println("********************************************");
+    }
+
+    public void stopSession() {
+        System.out.println("********************************************");
+        System.out.println("Stopping session...");
+        System.out.println("********************************************");
+    }
+
 }
