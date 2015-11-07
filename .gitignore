@@ -1,5 +1,5 @@
 bin
 .idea/
-paginator2.iml
+*.iml
 target/
 
